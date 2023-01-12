@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Layout 1</title>
+  
+  </head>
+  <body>
+    <div id="wrapper-div">
+      <!-- start logo div -->
+      <div id="logo-div">
+        
+          <nav>
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <img class="logo" src="images/logo.png" alt="">
+            <ul>
+              <li><a class="active" href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Feedback</a></li>
+            </ul>
+          </nav>
+      </div>
+      <!-- end logo div -->
+
+      <!-- start header banner div -->
+    <div id="header-banner-div" class="clearfix">  
+
+     <div class="header-text">
+      <h1>WELCOME TO THE <br> CUPCAKE PARADISE!</h1>
+      <p>Hand-crafted cupcakes in a variety of mouthwatering flavors.</p>
+     <button class="header-button" id="order-Now">Order Now</button>
+     <button class="header-button">Read More</button>
+     </div>
+
+     <div class="header-image">
+      <img src="images/Cupcake_1.png" alt="cupcake image" width="400px">
+     </div>
+    </div>
+      <!-- end header banner div -->
+
+    <div id="main-div" class="clearfix">
+      <div id="sidebar-div">
+        
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="images/slideshow images/slide_1.jpg" style="width:100%">
+    <div class="text">Red Velvet</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="images/slideshow images/slide_2.jpg" style="width:100%">
+    <div class="text">Chocolate</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="images/slideshow images/slide_3.jpg" style="width:100%">
+    <div class="text">Cherry</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="images/slideshow images/slide_4.jpg" style="width:100%">
+    <div class="text">Lemon</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="images/slideshow images/slide_5.jpg" style="width:100%">
+    <div class="text">Oreo</div>
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+  
+  </div>
+  <br>
+      </div>
+      <div id="bodyarea-div">
+        <table>
+          <tbody>
+            <tr>
+              <th colspan="2"> PRICE TABLE</th>
+            </tr>
+            <tr>
+              <th>Cupcake Type (1Pcs)</th>
+              <th>Prices (Rs.)</th>
+            </tr>
+            <tr>
+              <td>Chocolate Cupcake</td>
+              <td>Rs. 450/=</td>
+            </tr>
+            <tr>
+              <td>Strawberry Cupcake</td>
+              <td>Rs. 350/=</td>
+            </tr>
+            <tr>
+              <td>Nutella Cupcake</td>
+              <td>Rs. 375/=</td>
+            </tr>
+            <tr>
+              <td>Oreo Cupcake</td>
+              <td>Rs. 425/=</td>
+            </tr>
+            <tr>
+              <td>Red Velvet Cupcake</td>
+              <td>Rs. 400/=</td>
+            </tr>
+            <tr>
+              <td>Cherry Cupcake</td>
+              <td>Rs. 350/=</td>
+            </tr>
+          </tbody>
+         
+        </table>
+      </div>
+    </div>
+    <div id="footer-div">© 2023 by The Cupcake Paradise. Design and Develop by Sandaruwan Gamage.</div>
+    </div>
+
+    <script src="script.js"></script>
+  </body> 
+</html>
